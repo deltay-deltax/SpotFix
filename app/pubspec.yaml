@@ -1,0 +1,30 @@
+name: spotfix
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.9.0
+  image_picker: ^1.0.4
+  geolocator: ^10.0.1
+  provider: ^6.0.5
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/park_cleanup.jpg
+    - assets/images/reporter_illustration.jpg
+    - assets/images/map.png
